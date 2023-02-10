@@ -1,3 +1,6 @@
 <template>
-  <router-view></router-view>
+  <div class="flex flex-col">
+    <router-view></router-view>
+    <BottomNav />
+  </div>
 </template>

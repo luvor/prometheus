@@ -7,7 +7,13 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
+    BottomNav: typeof import('./src/components/BottomNav.vue')['default']
+    EveryDayToDo: typeof import('./src/components/EveryDayToDo.vue')['default']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
+    IconHome: typeof import('./src/components/icons/IconHome.vue')['default']
+    IconMenu: typeof import('./src/components/icons/IconMenu.vue')['default']
+    IconTranser: typeof import('./src/components/icons/IconTranser.vue')['default']
+    IconWallet: typeof import('./src/components/icons/IconWallet.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }
