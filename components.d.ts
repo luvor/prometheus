@@ -10,6 +10,8 @@ declare module '@vue/runtime-core' {
     BottomNav: typeof import('./src/components/BottomNav.vue')['default']
     EveryDayToDo: typeof import('./src/components/EveryDayToDo.vue')['default']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
+    IconDelete: typeof import('./src/components/icons/IconDelete.vue')['default']
+    IconEdit: typeof import('./src/components/icons/IconEdit.vue')['default']
     IconHome: typeof import('./src/components/icons/IconHome.vue')['default']
     IconMenu: typeof import('./src/components/icons/IconMenu.vue')['default']
     IconTranser: typeof import('./src/components/icons/IconTranser.vue')['default']
